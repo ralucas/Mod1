@@ -1,0 +1,138 @@
+/* ADD YOUR STYLES HERE */
+
+/*CSS # 1*/
+
+#top {
+	color:black;
+	width:100%;
+	line-height:225%;
+}
+
+#bottom {
+	color:black;
+	width:100%;
+	line-height:225%;
+}
+
+#top > td {
+	width: .6%;
+}
+
+#bottom > td {
+	width:1%;
+}
+
+.one tr, .one th {
+	border-bottom:1px solid #BFB6B6;
+}
+
+.one tr:last-of-type{
+	border-bottom:none;
+}
+
+.one td:first-of-type {
+	width: 10%;
+	padding-left: 10px;
+}
+
+.one th:first-of-type {
+	width: 10%;
+	padding-left: 10px;
+}
+
+
+
+/*2. Stats*/
+
+#tstats {
+	border-top: 1px solid rgb(185,185,185);
+	border-bottom: 1px solid rgb(185,185,185);
+	width: 40%;
+	margin: 5%;
+}
+
+
+.numb{
+	font-size: 36px;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 20%;
+}
+
+.word{
+	font-size: 12px;
+	color: gray;
+	text-align: center;
+	opacity: .5;
+	margin-bottom: 20%;
+}
+
+/*CSS FOR PROJECT #3*/
+
+.three div {
+	background-color: #52A0D1;
+	color: white;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px; 
+	font-size: 80%; 
+	padding: 4px;
+}
+
+.three {
+	width:95%;
+
+}
+
+.three td {
+	width:85%;
+}
+
+.three th {
+	width:15%;
+}
+
+/*4. Lightbox CSS*/
+
+#container{
+	display: -webkit-flex;
+	display: flex;
+	background-color: gray;
+	height: 500px;
+	width: 100%;
+}
+
+#inner{
+	margin: auto;
+	width: 70%;
+	height: 55%;
+	background-color: white;
+	border-radius: 10px;
+}
+
+#content{
+	margin: 3%;
+}
+
+#content a{
+	background-color: #FF6F6F;
+	color: white;
+	float: right;
+	border-radius: 5px;
+	width: 25%;
+	height: 35px;
+	text-align: center;
+	line-height: 2;
+	margin-right: 5%;
+}
+
+
+/*5. Media Block CSS*/
+img{
+	float: left;
+	margin: 0 1% 0 0;
+}
+
+#first, #tp, .nested {
+	overflow: auto;
+}
+

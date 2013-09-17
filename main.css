@@ -93,20 +93,36 @@
 
 /*4. Lightbox CSS*/
 
-#container{
+.outer_overlay {
 	display: -webkit-flex;
 	display: flex;
 	background-color: gray;
-	height: 500px;
-	width: 100%;
+	position: absolute;
+    top: 175%;
+    left: 20%;
+    bottom: 50%;
+    right: 50%;
+    width: 60%;
+    height: 70%;
+    z-index:1001;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=80);
 }
+
 
 #inner{
 	margin: auto;
-	width: 70%;
-	height: 55%;
 	background-color: white;
 	border-radius: 10px;
+	position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    padding: 16px;
+    z-index:1002;
+    overflow: auto;
 }
 
 #content{
